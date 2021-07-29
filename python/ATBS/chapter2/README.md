@@ -59,3 +59,22 @@ Multiple lines of code are grouped together in _blocks_. Blocks are indicated by
 3. Blocks end when the indentation decreases to zero or to a containing block's indentation
 
 :star: Example: swordfish.py
+
+## Flow Control Statements
+### if Statements
+An `if` statement's clause will execute if the statement's condition is `True`, and is skipped if the condition is `False`. Think of an `if` statement as _if this condition is true, execute the code in the clause_.
+
+### else Statements
+`else` can optionally follow an `if` statement, which executes when the `if` statement is `False`.
+
+### elif Statements
+`elif` means "else if" and always follows an `if` or another `elif` statement. It provides another condition that is checked only if all the previous conditions were `False`.
+
+**Warning:** The order of `elif` statements is critical.
+
+:star: See _vampire.py_ for an example.
+
+### while Loop Statements
+A `while` statement makes a block of code execute over and over as long as some condition is True. As soon as the expression becomes false, the block stops executing. This is called a _while loop_ or just a _loop_.
+
+:star: See _nameGame.py_ for an example of `while` loops.
