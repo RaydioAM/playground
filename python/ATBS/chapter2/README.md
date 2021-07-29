@@ -49,3 +49,13 @@ Flow control statements start with the _condition_ and are followed by a block o
 
 ### Conditions
 Conditions are a more specific name for _expressions_ that evaluate down to a Boolean value. Flow control statements decide what to do based on whether the condition is `True` or `False`.
+
+### Blocks of Code
+Multiple lines of code are grouped together in _blocks_. Blocks are indicated by indentations.
+
+3 Rules of Blocks:
+1. Blocks begin when the indentation increases
+2. Blocks can contain other blocks
+3. Blocks end when the indentation decreases to zero or to a containing block's indentation
+
+:star: Example: swordfish.py
